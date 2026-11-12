@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Printer thermal dengan struk keluar (area aman 66dp di tengah kanvas 108dp) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- struk -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M40,30 L68,30 L68,72 L65,69 L62,72 L59,69 L56,72 L53,69 L50,72 L47,69 L44,72 L41,69 L40,70 Z" />
+    <path android:fillColor="#C7D2FE" android:pathData="M44,57 L64,57 L64,59.5 L44,59.5 Z" />
+    <path android:fillColor="#C7D2FE" android:pathData="M44,61.5 L58,61.5 L58,64 L44,64 Z" />
+    <path android:fillColor="#C7D2FE" android:pathData="M44,66 L61,66 L61,68 L44,68 Z" />
+    <!-- badan printer -->
+    <path
+        android:fillColor="#1E1B4B"
+        android:pathData="M30,36 L78,36 Q82,36 82,40 L82,50 Q82,54 78,54 L30,54 Q26,54 26,50 L26,40 Q26,36 30,36 Z" />
+    <!-- celah kertas -->
+    <path android:fillColor="#FFFFFF" android:pathData="M38,47 L70,47 L70,50 L38,50 Z" />
+    <!-- lampu -->
+    <path android:fillColor="#34D399" android:pathData="M73,41 m-2.5,0 a2.5,2.5 0 1,0 5,0 a2.5,2.5 0 1,0 -5,0" />
+</vector>
